@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*INICIO DE HOME*/
+
+/*Fondo*/
+
+
+section{
+	background-image: url("img/Medellin_City.png");
+	background-size: cover;
+	height: 110vh;
+	width: auto;
+}
+
+
+/*BarraNavegación*/
+
+#logo{
+	width: 14%;
+	height: 12%;
+}
+
+.material-icons{
+	color: #709C63;
+}
+
+
+div ul li a{
+	background-color: none;
+	color: #709C63;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+div ul li a:hover{
+	height: 50px;
+	color: #6DC852;
+	box-shadow: 0 2px 0  #6DC852;
+	background-color: none;
+}
+
+.nav-wrapper{
+	box-shadow: none;
+}
+
+/*Carrusel*/
+
+.carousel{
+	top: -6%;
+	height: 100%;
+	box-sizing: border-box;
+	width: 40%
+}
+
+#down{
+  display: block;
+  text-align: center;
+	top: -200px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FINAL DE HOME*/

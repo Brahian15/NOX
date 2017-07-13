@@ -1,0 +1,797 @@
+@charset "utf-8";
+@import '../fonts/caviar-font/fonts.css';
+
+.row{
+	margin-bottom: 0 !important;
+}
+
+.row .col.s10{
+	padding: 0 !important;
+}
+
+.input-field{
+	margin-top: 0 !important;
+}
+
+/*** LOGIN ***/
+.backgroundPrincipal{
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/nox_app_login_fondo.jpg);
+	background-size: 100% auto;
+	position: absolute;
+	background-repeat: no-repeat;
+	font-family: "caviar_dreamsregular";
+}
+
+#login{
+	width: 100%;
+	font-family: "caviar_dreamsregular", fantasy;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	top: 250px;
+	position: absolute;
+}
+
+/*** FORMULARIO LOGIN ***/
+#wrap{
+	top: 30%;
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	left: 8%;
+	right: 8%;
+	height: 40%;
+}
+
+
+.input-field input{
+    color: #ffffff !important;
+	text-align: center !important;
+	font-family: "caviar_dreamsregular";
+ 	margin-top:  -2% !important;
+  	font-size: 14px !important;
+  	width: 100%;
+   }
+
+
+.input-field input.invalid{
+	border-bottom: 1px solid #ef1000 !important;
+	box-shadow: none !important;
+}
+
+.input-field input.valid{
+	border-bottom: 1px solid #33bf5b !important;
+	box-shadow: none !important;
+}
+
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid #F309A1;
+     box-shadow: none !important
+   }
+
+.input-field input[type=password]:focus {
+     border-bottom: 1px solid #F309A1;
+	 box-shadow: none !important;
+   }
+
+.div_pass{
+	margin-top: -10px !important;
+}
+
+/*** ICONOS ***/
+
+.icon{
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  background-image: url(../images/social.png);
+  background-size: 100% 100%;
+  top: 10%;
+}
+
+.icon_pass{
+  background-image: url(../images/security.png);
+}
+/*** ***/ 
+
+/*** BOTTON ***/
+.btns{
+	width: 105%;
+	color: #b392ad !important;
+	font-weight: bold;
+	margin-top: 3%;
+	margin-left: -2.5%;
+}
+/*** ***/
+
+#enlace{
+	position: relative;
+	text-align: left;
+	color: #fff;
+	font-size: 10px;
+	float: left;
+	left: -10px;
+}
+
+#enlace2{
+	margin-top: -1% !important;
+	position: relative;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	right: -8px;
+}
+
+
+
+#send{
+	right:  156px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	float: left;
+	bottom: 100px;
+}
+
+#send2{
+	left: 100px;
+	width: 7%;
+	height: 7%;
+	position: relative;
+	float: right;
+	bottom: 100px;
+}
+
+.marginEnlaces{
+	margin-top: 2%;
+}
+
+/*** ***/
+
+.error{
+	color: #ffffffff;
+	font-size: 10px !important;
+	float: right;
+	margin-top: -18px
+}
+
+.parsley-required{
+	font-size: 12px !important;
+	margin-top: -34px;
+}
+
+.parsley-type{
+	margin-top: -34px;
+}
+
+.parsley-equalto{
+	margin-top: -34px;
+}
+
+.parsley-minlength{
+	margin-top: -34px;
+}
+
+.data-parsley-required-message{
+	float: right;
+}
+
+.parsley-pattern{
+	margin-top: -34px !important;
+}
+
+
+
+
+
+#register{
+	font-family: "caviar_dreamsregular", fantasy;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	top: 250px;
+}
+
+
+
+
+/***************** COMPLETAR PERFIL ***************************************/
+
+#wrapCompletarPerfil{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#wrapCompletarPerfil h1{
+	font-size: 30px;
+}
+
+#wrapCompletarPerfil h2{
+	font-size: 15px;
+}
+
+#wrapCompletarPerfil input{
+	margin-top: -6px !important;
+}
+
+
+
+.input-field input[type=select]:focus {
+     border-bottom: 1px solid #F309A1;
+     box-shadow: 0 1px 0 0 #F309A1 !important
+   }
+
+.input-field input[type=date]:focus {
+     border-bottom: 1px solid #F309A1;
+     box-shadow: 0 1px 0 0 #F309A1 !important
+   }
+
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #F309A1;
+     box-shadow: 0 1px 0 0 #F309A1 !important
+	}
+
+/*****************                  **************************************/
+
+
+
+/*** REGISTRO USUARIO ***/
+
+div.inputFile {
+	width: 100px;
+	height: auto;
+	position: relative;
+	top: -2px;
+	left: 33%;
+}
+
+div.fakeFile {
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	z-index: 1;}
+
+input.file {
+	top: -10px;
+	right: 5px;
+	position: relative;
+	text-align: right;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+  width:100px;
+  height:97px;
+  cursor:pointer;}
+
+.formularioUsuario{
+	background-image: url(../images/Register.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: 100% auto;
+	position: absolute;
+	background-repeat: no-repeat;
+	font-family: "caviar_dreamsregular";
+}
+
+#wrapRegistro{
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	left: 8%;
+	right: 8%;
+}
+
+#register{
+	text-align: center;
+	top: 700px;
+	margin-top: 40px
+}
+
+#wrapRegistro div{
+	margin-top: -2px !important;
+}
+#wrapRegistro input{
+	margin-top: -6px !important;
+}
+
+/************ REGISTRO ESTABLECIMIENTO *******************/
+
+.bolaDisco{
+	background-image: url(../images/bola-de-discoteca.png);
+}
+
+.formularioEstablecimiento{
+	background-image: url(../images/estab_reg.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: 100% auto;
+	position: absolute;
+	background-repeat: no-repeat;
+	font-family: "caviar_dreamsregular";
+
+}
+
+/***********  ********************/
+
+/*** RECUPERAR CONTRASEÑA ***/
+
+#wrapRecuperar{
+	top: 30%;
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	left: 8%;
+	right: 8%;
+}
+
+.icon_email_recover{
+  background-image: url(../images/correo_recuperar.png);
+}
+
+#btnRec{
+	font-size: 14px !important;
+	margin-top: 0 !important;
+}
+
+.cancelarRec{
+	margin-top: 2% !important;
+	position: relative;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	right: -8px;
+}
+
+/*** ***/
+
+
+
+/*** NUEVA CONTRASEÑA ***/
+#recover{
+	top: 30%;
+	position: absolute;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	left: 8%;
+	right: 8%;
+}
+
+#recover h2{
+	font-size: 20px !important;
+	margin:  0 !important;
+	padding: 0 !important;
+}
+
+.icon_pass_recover{
+	background-image: url(../images/password.png);
+}
+
+.parsley-required{
+	float: right;
+}
+
+.parsley-type{
+	float: right;
+	font-size: 12px;
+}
+/*** ***/
+
+
+
+/*********************************** DASHBOARD **************************************/
+
+.dashboard{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: -webkit-linear-gradient(rgba(172,81,139, 0.6), rgb(58,86,91)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(172,81,139, 0.6), rgb(58,86,91)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(172,81,139, 0.6), rgb(58,86,91)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(172,81,139, 0.6),black, rgb(58,86,91)); /* Standard syntax */
+}
+
+.cuadro{
+	height: 150px;
+	background-color: rgba(13,107,115,0.4);
+}
+
+.colorCuadro2{
+		background-color: rgba(13,127,115,0.4);
+}
+
+.colorCuadro3{
+		background-color: rgba(13,147,115,0.4);
+}
+
+.colorCuadro4{
+		background-color: rgba(13,177,115,0.4);
+}
+
+.colorCuadro5{
+		background-color: rgba(13,197,115,0.4);
+}
+
+.colorCuadro6{
+		background-color: rgba(13,217,115,0.4);
+}
+
+.logo{
+  position: absolute;
+  height: 100px;
+  top: 10%;
+  background-size: 100% 100%;
+  background-image: url(../images/nox-min.png);
+
+}
+
+.interActividadDas{
+	height: 30%;
+	position: absolute;
+	top: 230px;
+
+}
+
+#bodyDashboard .row .col{
+	padding: 0 !important;
+}
+
+
+.iconoDashboard{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-size: 100% 100%;
+  margin-left: 35%;
+  margin-top: 40%;
+
+
+}
+
+.iconoEstablecimiento{
+	background-image: url(../images/png/establecimiento.png);
+}
+
+.iconoMusica{
+	background-image: url(../images/png/musica.png);
+}
+
+.iconoPlaylist{
+	background-image: url(../images/png/playlist.png);
+}
+
+.iconoReservas{
+	background-image: url(../images/png/reserva.png);
+}
+
+.iconoPromocion{
+	background-image: url(../images/png/promo.png);
+}
+
+.iconoConfi{
+	background-image: url(../images/png/confi.png);
+}
+
+.bienvenida{
+	font-family: "caviar_dreamsregular";
+	font-size: 15px;
+	color: white;
+	float: right;
+	margin-top: -20px;
+	margin-right: 2px;
+}
+
+/***********************************           *************************************/
+
+/*********************************** ESTABLECIMIENTO ******************************/
+
+ .row .col{
+ 	padding: 0 !important;
+ }
+ .seccionEstablecimiento form input{
+ 	display: none;
+ }
+
+ .seccionEstablecimiento form button{
+ 	position: absolute;
+ 	background-color: transparent;
+ 	position: absolute;
+	height: 50px;
+	margin-top: 20%;
+	border: none !important;
+ }
+.seccionEstablecimiento{
+	height: 200px;
+	background-color: pink;
+	z-index: 1;
+	background-size: 100% 100%;
+}
+
+.nombreEstablecimiento{
+	position: absolute;
+	height: 50px;
+	margin-top: 20%;
+	border:  2px solid white !important;
+}
+
+.nombreEstablecimiento p{
+	font-family: "caviar_dreamsregular";
+	color: white;
+	font-weight: bolder;
+	margin: 10px !important;
+	letter-spacing: 2px;
+}
+
+.seccionEstablecimiento img{
+	z-index: -1;
+}
+
+.colorRosa{
+	height: 100%;
+	width: 100%;
+background-color: rgba(172,81,139, 0.7);
+}
+
+.colorAzul{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(25,96,122,0.7);
+}
+
+
+.borderEstablecimiento{
+	position: absolute;
+	margin: 2%;
+	width: 95%;
+	height: 180px;
+	border: 2px solid white;
+}
+
+#busqueda{
+	color: white;
+	font-family: "caviar_dreamsregular";
+	font-size: 15px;
+	text-align: center;
+}
+
+.btnBusqueda{
+	color: #b392ad !important;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-left: 12px !important; 
+}
+
+.busquedaIcon{
+  background-image: url(../images/buscar-en-boton-circular.png);
+  position: absolute;
+  left: 17%;
+}
+
+.noResults{
+	color: white;
+	font-family: "caviar_dreamsregular";
+}
+
+.logoBusqueda{
+  position: fixed;
+  height: 100px;
+  top: 85%;
+  background-size: 100% 100%;
+  background-image: url(../images/nox-min.png);
+  z-index: -1;
+}
+
+/**********************************            ************************************/
+
+/********************************* ESCOGER REGISTRO ******************************/
+
+
+#wrapEscoger{
+	top: 30% !important;
+	position: absolute !important;
+	color: white !important;
+	font-size: 14px;
+	text-align: center;
+	left: 8%;
+	right: 8%;
+	height: 40%;
+}
+
+#wrapEscoger li{
+	font-size: 20px;
+	border: 2px solid white;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#wrapEscoger h2{
+	font-size: 20px;
+	color: white;
+}
+
+#wrapEscoger a{
+	color: white;
+}
+
+.cancelarReg{
+	margin-top: 2% !important;
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	right: -5px;
+}
+
+/********************************                   *****************************/
+
+/******************************** ESTABLECIMIENTO INFO *************************/
+
+.imgEstablecimiento{
+	font-family: "caviar_dreamsregular";
+	background-color: pink;
+	height: 400px;
+	background-size: 100% 100%;
+	border-bottom: 2px solid white;
+}
+
+.divReg{
+	position: relative;
+	top: 330px;
+	height: 40px;
+	width: 100px;
+	float: right !important;
+	margin-right: 10px;
+	border: 2px solid orange;
+}
+
+.divReg p{
+	text-align: center;
+	color: orange;
+	margin: 0 !important;
+	padding: 8px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.colorNegro{
+	background-color: black;
+}
+
+.info{
+	color: white;
+}
+
+.info h2{
+	font-size: 32px;
+	margin-bottom: 0;
+}
+
+.infoDirec{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.info li{
+	font-size: 15px;
+	border: 2px solid white;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/****************************** MIS RESERVAS ***********************************/
+
+.misReservas h1{
+	font-family: "caviar_dreamsregular";
+	color: #33bf5b;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+
+.divReservas{
+	height: 75px;
+	margin-top: 20px;
+	border: 3px solid  #33bf5b;
+	background-color: rgba(13,107,115,0.4);
+}
+
+.lista{
+	position: relative;
+	font-family: "caviar_dreamsregular";
+	color: white;
+	float: left;
+	font-size: 18px; 
+	padding: 0;
+	margin-top:0;
+	margin-left: 10px !important; 
+}
+
+.direcRes{
+	font-size: 14px !important;
+}
+
+.fechaRes{
+	font-size: 13px !important;
+	color: #33bf5b !important;
+	padding-left: 35px !important;
+}
+
+.iconoDelete{
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/delete.png);
+  background-size: 100% 100%;
+  margin-top: -15px;
+}
+
+/****************************** MIS RESERVAS ESTABLECIMIENTO **********************************/
+
+.misReservasEst form input{
+ 	display: none;
+}
+
+.misReservasEst form button{
+ 	position: absolute;
+ 	background-color: transparent;
+	height: 20px;
+	margin-top: -20px;
+	margin-left: -26% !important;
+	border:none;
+ }
+
+
+/*******************************                   *****************************/
+
+
+
+/****************************** PROMO Y EVENTOS *******************************/
+.seccionPromoEventos{
+	background-color: black;
+}
+
+.promo{
+	margin-top: 10%;
+	height: 200px;
+	border: 2px solid white;
+	background-size: 100% 100%;
+}
+
+.promo p{
+	color: white;
+}
+
+.promocionesTitulo{
+	color: #33bf5b;
+	font-family: "caviar_dreamsregular";
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.moverBtn{
+	position: fixed;
+	top: 85%;
+	right: 10px;
+}
+
+.proximamente{
+	position: absolute;
+	height: 150px;
+	width: 33%;
+	background-image: url(../images/proximamente2.png);
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+/*****************************                 *******************************/
